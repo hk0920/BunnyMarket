@@ -1,14 +1,4 @@
-$(function(){
-	$(".sub-body input[name='search']").change(function() {
-		var keyword = $(this).val();
-		console.log(keyword)
-		
-		location.href = "/advertise/list?keyword="+keyword;
-	});
-	
-	//지역설정
-	$("#city").val($(".local-btn").text());
-		
+$(function(){	
 	var fileListArr = new Array();
 	var keyNum = 0;
 	var fileCnt = 0;
@@ -78,7 +68,6 @@ $(function(){
 	});
 	
 	$(".ad-div .ad-add-btn").click(function(){
-		var city = $(".ad-div.write-form input[name='city']").val();
 		var title = $(".ad-div.write-form input[name='title']").val();
 		var content = $(".ad-div.write-form textarea[name='content']").val();
 		var formData = new FormData();
@@ -86,7 +75,6 @@ $(function(){
 			alert("필수 입력을 입력해주세요.");
 			return;
 		}
-		formData.append("city", city);
 		formData.append("title", title);
 		formData.append("content", content);
 		
@@ -114,7 +102,6 @@ $(function(){
 	
 	//글 수정
 	$(".ad-div .ad-update-btn").click(function(){
-		var city = $(".ad-div.write-form input[name='city']").val();
 		var idx = $(".ad-div.write-form.update input[name='idx']").val();
 		var title = $(".ad-div.write-form input[name='title']").val();
 		var content = $(".ad-div.write-form textarea[name='content']").val();
@@ -127,7 +114,6 @@ $(function(){
 			return;
 		}
 		formData.append("idx", idx);
-		formData.append("city", city);
 		formData.append("title", title);
 		formData.append("content", content);
 		formData.append("deleteFile",deleteFile);
