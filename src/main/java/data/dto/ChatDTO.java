@@ -16,7 +16,6 @@ public class ChatDTO {
 	private String state;
 	private MemberDTO mdto;
 	private String nickname;
-	private String id;
 	private String profile;
 	
 	public String getNickname() {
@@ -31,17 +30,14 @@ public class ChatDTO {
 	public void setProfile(String profile) {
 		this.profile = profile;
 	}
+
+	
+	
 	public MemberDTO getMdto() {
 		return mdto;
 	}
 	public void setMdto(MemberDTO mdto) {
 		this.mdto = mdto;
-	}
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
 	}
 
 	//txt
