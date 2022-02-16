@@ -36,6 +36,8 @@
 >     - JavaMailSender 이용 - 비밀번호가 암호화되어 DB에 저장되기 때문에 Random을 통한 임시 비밀번호를 메일 전송
 
 #### 화면
+> 더 많은 ppt가 궁금하시다면 
+> 
 ![image](https://user-images.githubusercontent.com/75876034/153952083-bef5f894-5e0f-4a43-90e6-ca7c9b953ccb.png)
 
 ![image](https://user-images.githubusercontent.com/75876034/153952278-9e48e096-29b1-41fa-88c6-fcda19cf7a05.png)
@@ -45,8 +47,4 @@
 ![image](https://user-images.githubusercontent.com/75876034/153952395-1cfb663b-3ea3-44bb-96f5-97840f0e15b9.png)
 
 ![image](https://user-images.githubusercontent.com/75876034/153952611-a85d18ae-9bca-4fc7-9759-c64ded970800.png)
-
-
-
-
 
