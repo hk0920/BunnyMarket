@@ -4,7 +4,8 @@
 ![image](https://user-images.githubusercontent.com/75876034/153952005-06720dfd-eaa8-40a2-85f8-1bc5feb0a22e.png)
 
 #### Team Project 
-> * **개발인원** : 6명
+> * **개발인원** : 6명  
+> * **개발기간** : 2021.11.03 ~ 2021.12.09  
 > * **개발환경** : 
     <span><img src="https://img.shields.io/badge/HTML-e34f26?style=flat&logo=html5&logoColor=white"/></span>
     <span><img src="https://img.shields.io/badge/CSS-1572b6?style=flat&logo=css3&logoColor=white"/></span>
